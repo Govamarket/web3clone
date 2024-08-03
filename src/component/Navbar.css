@@ -6,6 +6,7 @@
    box-sizing: border-box; 
    font-family: "Titillium Web", sans-serif;
    background-color: var(--secondaryColor);
+   overflow-x: hidden;
 }
 
 :root {
