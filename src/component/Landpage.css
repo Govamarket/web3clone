@@ -18,9 +18,9 @@
     .text-article .text p{
         padding-bottom: 2rem;
         font-family: "Titillium Web", sans-serif;
-        font-weight: 800;
+        font-weight: 600;
         font-style: normal;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
 .container h1{
@@ -30,7 +30,7 @@
     font-size: 5rem;
     padding: 10px;
     letter-spacing: 5px;
-    line-height: 100px;
+    line-height: 2.8rem;
     /* margin-top: 4rem; */
 }
 
@@ -129,7 +129,7 @@
     }
 
     .container{
-        padding: 30px;
+        padding: 10%;
     }
   
 
@@ -137,6 +137,33 @@
         visibility: hidden;
        width: 200px;
     }
+
+    .arrow a{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: baseline;
+        padding-inline: 2%;
+        color: var(--darkColor);
+        text-decoration: none;
+        font-size: 16px;
+        font-family: "Titillium Web", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+       
+    }
+    
+    .container .btn{
+        background-color: var(--navbtnColor);
+        width: 60%;
+        padding: 5%;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 800;
+        font-style: bolder;
+    }
+    
     
 }
 
@@ -144,6 +171,6 @@
 @media only screen and (max-width: 768px){
     .side-img img{
         visibility: hidden;
-       width: 20px;
+       width: 2%;
     }
 }
