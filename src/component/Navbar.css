@@ -88,15 +88,19 @@ header .nav-btn{
 @media only screen and (max-width: 1028px) {
 
     header .nav-btn{
+        align-items: center;
         visibility: visible;
         opacity: 1;
-        right: -1rem;
-        position: absolute;
+        right: 1rem;
+        margin-left: 3rem;
+        font-size: 1.4rem;
+        /* position: absolute; */
     }
+
 
     header{
         display: flex;
-
+        margin-right: 10rem;
     }
 
     header nav{
@@ -119,12 +123,13 @@ header .nav-btn{
   
 
     .nav-b{
-        display: flex;
+        display: none;
         justify-content: center;
         text-align: center;
         right: 0;
         width: 6rem;
         font-size: 8.5px;
+
     }
 
     header .responsive_nav{
