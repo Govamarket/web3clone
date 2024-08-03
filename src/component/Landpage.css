@@ -168,6 +168,14 @@
     .bubble-container .first-col .img-2{
         display: none;
     }
+
+    .bubble-container .second-col .img-4{
+        display: none;
+    }
+
+    .side-img img{
+        display: none;
+    }
     
     
 }
