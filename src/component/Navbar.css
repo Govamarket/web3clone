@@ -62,6 +62,10 @@ header nav a{
     color: var(--darkColor);
  }
 
+ nav span{
+    display: none;
+ }
+
 .nav-b{
     background-color: var(--navbtnColor);
     outline: none;
@@ -121,7 +125,9 @@ header .nav-btn{
         overflow-x: hidden;
     }
 
-  
+    nav span{
+        display: block;
+     }
 
     .nav-b{
         display: none;

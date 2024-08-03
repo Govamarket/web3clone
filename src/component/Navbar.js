@@ -25,8 +25,10 @@ import "./Navbar.css";
       </section>
 
       <nav ref={navRef}>
+      <span> <a href="#">Profile</a></span>
         <a href="#">Quests</a>
         <a href="#">Wallet Mining</a>
+       
 
      
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
