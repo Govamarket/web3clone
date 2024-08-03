@@ -164,6 +164,10 @@
         font-weight: 800;
         font-style: bolder;
     }
+
+    .bubble-container .first-col .img-2{
+        display: none;
+    }
     
     
 }

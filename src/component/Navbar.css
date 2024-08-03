@@ -6,7 +6,6 @@
    box-sizing: border-box; 
    font-family: "Titillium Web", sans-serif;
    background-color: var(--secondaryColor);
-   overflow-x: hidden;
 }
 
 :root {
@@ -114,6 +113,7 @@ header .nav-btn{
         transition: 1s;
         top: 0;
         right: 0;
+        overflow-x: hidden;
     }
 
   
@@ -143,7 +143,6 @@ header .nav-btn{
     .nav-b{
         background-color: var(--navbtnColor);
         outline: none;
-        /* border: none; */
         padding: 10px;
         border-radius: 10px;
         width: 100px;
@@ -151,7 +150,6 @@ header .nav-btn{
         font-weight: 600;
         font-style: normal;
         cursor: pointer;
-        margin-left: 5%;
     }
     
 }
