@@ -1,0 +1,82 @@
+:root {
+    --navbtnColor: #D6FF5C;
+    --primaryColor: #E7F0FC;
+    --secondaryColor: #FCF5F6;
+    --darkColor: #000;
+    --textColor: #adabab;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3rem;
+      
+        
+    }
+
+
+    .text-article .text p{
+        padding-bottom: 2rem;
+    }
+
+.container h1{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 4rem;
+    padding: 10px;
+    letter-spacing: 5px;
+    /* margin-top: 4rem; */
+}
+
+.container .btn{
+    background-color: var(--navbtnColor);
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 800;
+    font-style: bolder;
+}
+
+
+
+.side-img img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1028px) {
+    .container h1{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 800;
+        font-style: bold;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        padding-right: 4rem;
+    }
+
+    .container .btn{
+        background-color: var(--navbtnColor);
+        width: 50%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+  
+
+    .side-img img{
+        visibility: hidden;
+       width: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    .side-img img{
+        visibility: hidden;
+       width: 20px;
+    }
+}
