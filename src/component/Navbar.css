@@ -90,6 +90,8 @@ header .nav-btn{
     header .nav-btn{
         visibility: visible;
         opacity: 1;
+        right: -1rem;
+        position: absolute;
     }
 
     header{
