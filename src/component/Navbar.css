@@ -92,7 +92,7 @@ header .nav-btn{
         visibility: visible;
         opacity: 1;
         right: 1rem;
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         font-size: 1.4rem;
         /* position: absolute; */
     }
@@ -100,7 +100,8 @@ header .nav-btn{
 
     header{
         display: flex;
-        margin-right: 10rem;
+       justify-content: space-between;
+       align-items: center;
     }
 
     header nav{
