@@ -4,8 +4,8 @@ import { FaHandPaper } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
-function Navbar() {
-  const navRef = useRef(null);
+  function Navbar() {
+    const navRef = useRef(null);
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");

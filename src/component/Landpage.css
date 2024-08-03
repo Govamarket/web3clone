@@ -17,15 +17,20 @@
 
     .text-article .text p{
         padding-bottom: 2rem;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 20px;
     }
 
 .container h1{
     font-family: "Titillium Web", sans-serif;
-    font-weight: 800;
-    font-style: bold;
-    font-size: 4rem;
+  font-weight: 900;
+  font-style: normal;
+    font-size: 5rem;
     padding: 10px;
     letter-spacing: 5px;
+    line-height: 100px;
     /* margin-top: 4rem; */
 }
 
@@ -42,10 +47,69 @@
 
 
 
+.btn{
+    margin-bottom: 1rem;
+}
+
+.arrow a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: baseline;
+    padding-inline: 30px;
+    color: var(--darkColor);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Titillium Web", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+   
+}
+
+
 .side-img img{
     width: 500px;
     border-radius: 10px;
 }
+.side-img{
+   position: relative;
+}
+
+
+
+
+
+.bubble-container img{
+    width: 100px;
+}
+
+.bubble-container .first-col .img-1{
+    left: -17vh;
+    top: 0vh;
+    position: absolute;
+}
+
+.bubble-container .first-col .img-2{
+    left: -17vh;
+    top: 40vh;
+    position: absolute;
+}
+
+.bubble-container .second-col .img-3{
+    right: -15.5vh;
+    top: 0vh;
+    position: absolute;
+}
+
+.bubble-container .second-col .img-4{
+    right: -15.5vh;
+    top: 40vh;
+    position: absolute;
+}
+
+
+
+
 
 @media only screen and (max-width: 1028px) {
     .container h1{
@@ -64,6 +128,9 @@
         border-radius: 10px;
     }
 
+    .container{
+        padding: 30px;
+    }
   
 
     .side-img img{
