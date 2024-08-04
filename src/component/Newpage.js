@@ -56,7 +56,7 @@ function Newpage() {
             <span>
               <h1>Download Talisman</h1>
             </span>
-            <span>
+            <span className="text">
               <p>
                 To join our Quests you first need to get Talisman by downloading
                 it from here: Once you’ve installed <br /> the Talisman

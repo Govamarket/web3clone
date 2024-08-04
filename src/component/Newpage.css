@@ -63,6 +63,17 @@
     background-blend-mode: var();
 }
 
+.bar-2{
+    padding: 1rem;
+}
+
+.bar-2 .text{
+    line-height: 2.2rem;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 1028px) {
     .container-1{
         display: flex;
@@ -84,6 +95,14 @@
         z-index: 300;
         padding: 2rem;
         border-radius: 1rem;
+    }
+
+    .bar-2{
+        padding: 1rem;
+    }
+
+    .main{
+        padding: 1rem;
     }
     
 }
