@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import Navbar from './component/Navbar';
 import Landpage from './component/Landpage';
+import Foot from './component/Foot';
 
 
 
@@ -11,6 +12,7 @@ function App() {
    <React.Fragment>
     <Navbar />
     <Landpage />
+    <Foot />
    </React.Fragment>
    
   );

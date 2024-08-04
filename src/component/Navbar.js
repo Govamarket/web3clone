@@ -12,7 +12,8 @@ import "./Navbar.css";
   };
 
   return (
-    <header>
+    <Fragment>
+<header>
       <section className="logo">
         <a href="">
           <span className="icon">
@@ -42,6 +43,8 @@ import "./Navbar.css";
       </button>
       <button className="nav-b">Check Eligibility</button> 
     </header>
+    </Fragment>
+    
   );
   
 }

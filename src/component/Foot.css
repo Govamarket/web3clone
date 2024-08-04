@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:wght@300;400;700&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: "Titillium Web", sans-serif;
+   background-color: var(--secondaryColor);
+}
+
+:root {
+--navbtnColor: #D6FF5C;
+--primaryColor: #E7F0FC;
+--secondaryColor: #FCF5F6;
+--darkColor: #000;
+--textColor: #adabab;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-left: 220px;
+    margin-right: 80px;
+    width: 800px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.line-1 button{
+    background-color: var(--darkColor);
+    padding: 13px;
+    outline: none;
+    width: 15rem;
+    border-radius: 10px;
+    color: var(--primaryColor);
+    font-size: 1rem;
+}
+
+.line-2 .hand{
+    color: var(--navbtnColor);
+    font-size: 1.2rem;
+}
+
+.line-3 .cord{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.line-4 .x{
+    color: var(--darkColor);
+    font-size: 1rem;
+}
+
+.line-1, .line-2,
+.line-3, .line-4{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: transparent;
+}
+
+
+@media only screen and (max-width: 1028px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 1rem;
+        background-color: #fff;
+        width: 100%;
+        margin-left: 80px;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        background-color: #fff;
+        width: 100%;
+        margin-left: 80px;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    }
+}
