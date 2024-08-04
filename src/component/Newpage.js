@@ -49,8 +49,9 @@ function Newpage() {
         </section>
 
         <section className="bar-2">
-          <span>
-            <p>Step 1</p>
+          <span className="p-1">
+            <li>Step 1</li>
+          
           </span>
           <section className="left-main">
             <span>

@@ -5,8 +5,9 @@
    margin: 0;
    box-sizing: border-box; 
    font-family: "Titillium Web", sans-serif;
-  
-}
+  }
+
+
 
 :root {
 --navbtnColor: #D6FF5C;
@@ -72,6 +73,12 @@
     font-family: "Titillium Web", sans-serif;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.p-1 li{
+    font-size: 1.2  rem;
+    font-style: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media only screen and (max-width: 1028px) {

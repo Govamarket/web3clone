@@ -1,8 +1,10 @@
 import React from "react";
+// import { useRef } from "react";
 import "./Landpage.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Landpage() {
+
   return (
     <div className="container">
       <section className="text-article">
