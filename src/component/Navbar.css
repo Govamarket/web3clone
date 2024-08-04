@@ -5,7 +5,10 @@
    margin: 0;
    box-sizing: border-box; 
    font-family: "Titillium Web", sans-serif;
-   background-color: var(--secondaryColor);
+}
+
+body{
+    background-color: var(--secondaryColor);
 }
 
 :root {

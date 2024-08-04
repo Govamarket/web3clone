@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './component/Navbar';
 import Landpage from './component/Landpage';
 import Foot from './component/Foot';
+import Newpage from './component/Newpage';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Navbar />
     <Landpage />
     <Foot />
+    <Newpage />
    </React.Fragment>
    
   );
