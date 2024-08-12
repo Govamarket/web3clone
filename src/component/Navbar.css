@@ -44,6 +44,9 @@ header{
     padding: 0 2rem;
     align-items: center;
     height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 .logo .icon{
     font-size: 2rem;
@@ -109,6 +112,8 @@ header .nav-btn{
         display: flex;
        justify-content: space-between;
        align-items: center;
+       z-index: 1000;
+       width: 100%;
     }
 
     header nav{
