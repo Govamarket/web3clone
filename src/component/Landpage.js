@@ -1,12 +1,29 @@
 import React from "react";
-// import { useRef } from "react";
+import { useRef } from "react";
 import "./Landpage.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Newpage from "./Newpage";
+import Foot from "./Foot";
 
 function Landpage() {
 
-  return (
-    <div className="container">
+  const butRef = useRef (null);
+  const sectionRef = useRef (null);
+
+
+  const displayHidden=() => {
+    sectionRef.current.style.display = "block"
+    sectionRef.current.style.paddingTop = "80px"
+butRef.current.style.display = 'none';
+   
+    }
+
+
+
+   return (
+
+    <div>
+ <div className="container"  ref={butRef}>
       <section className="text-article">
         <h1>
           TALISMAN <br /> QUESTS
@@ -19,7 +36,7 @@ function Landpage() {
             points program.
           </p>
         </span>
-        <button className="btn">Check Eligibility</button> <br />
+        <button className="btn" onClick={displayHidden}> Check Eligibility </button> <br />
         <span className="arrow">
           <a href="#">
             Read Announcement <FaLongArrowAltRight />
@@ -52,7 +69,16 @@ function Landpage() {
           </section>
         </div>
       </section>
+
     </div>
+      <div  className="lower-section" ref={sectionRef} >  
+      <Foot />
+      <Newpage />
+
+      </div>
+    </div>
+
+   
   );
 }
 

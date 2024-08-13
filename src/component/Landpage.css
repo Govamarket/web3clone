@@ -9,7 +9,7 @@
     .container{
         display: flex;
         justify-content: space-around;
-        padding-top: 3rem;
+        padding-top: 6.7rem;
       
     }
 
@@ -104,6 +104,10 @@
     right: -15.5vh;
     top: 40vh;
     position: absolute;
+}
+
+.lower-section{
+    display: none;
 }
 
 

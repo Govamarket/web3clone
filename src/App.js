@@ -13,8 +13,7 @@ function App() {
    <React.Fragment>
     <Navbar />
     <Landpage />
-    <Foot />
-    <Newpage />
+  
    </React.Fragment>
    
   );

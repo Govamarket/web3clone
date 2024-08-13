@@ -6,18 +6,7 @@ import "./Navbar.css";
 
   function Navbar() {
     const navRef = useRef(null);
-    // const hiddenApp = useRef(null);
-
-    function hiddenApp() {
-      
-      const hiddenAp = document.querySelector ('.nav-b');
-
-      if (!hiddenAp == "") {
-        alert('hello world');
-      }
-    }
-  
-    hiddenApp()
+    
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
@@ -56,7 +45,7 @@ import "./Navbar.css";
       <button className="nav-btn" onClick={showNavbar}>
         <FaBars />
       </button>
-      <button className="nav-b" onClick={hiddenApp}>Check Eligibility</button> 
+      <button className="nav-b">Check Eligibility</button> 
     </header>
     </Fragment>
     

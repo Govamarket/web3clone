@@ -1,11 +1,13 @@
 import React from "react";
+import { useRef } from "react";
 import "./Newpage.css";
-import Navbar from "./Navbar.js";
 
 function Newpage() {
+
+  
   return (
     <div className="nav">
-      <Navbar />
+    
 
       <div className="container-1">
         <span></span>
