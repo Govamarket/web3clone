@@ -123,6 +123,7 @@
         letter-spacing: 2px;
         line-height: 3rem;
         padding-right: 4rem;
+        max-width: 100%;
     }
 
     .container .btn{
@@ -141,8 +142,17 @@
   
 
     .side-img img{
-        display: none;
-       width: 200px;
+        display: flex;
+        justify-content: center;
+        margin: auto 40px;
+        max-width: 100%;
+        margin-top: 2rem;
+
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
     }
 
     .arrow a{
@@ -171,6 +181,10 @@
         font-style: bolder;
     }
 
+    .second-col .img-1{
+        display: none;
+    }
+
     .bubble-container .first-col .img-2{
         display: none;
     }
@@ -179,6 +193,34 @@
         display: none;
     }
 
+    .second-col .img-3{
+        display: block;
+        left: 40.5vh;
+        width: 60px;
+        position: absolute;
+    }
+
+    .second-col .img-2{
+        display: block;
+        left: 40.5vh;
+        width: 60px;
+        position: absolute;
+    }
+
+
+    .second-col .img-1{
+        display: block;
+        left: 4.5vh;
+        width: 10px;
+        position: absolute;
+    }
+
+    .second-col .img-4{
+        display: block;
+        right: 30.5vh;
+        width: 60px;
+        position: absolute;
+    }
 
    
     
@@ -187,7 +229,9 @@
 
 @media only screen and (max-width: 768px){
     .side-img img{
-        visibility: hidden;
-       width: 2%;
+        display: block;
+       width: 70%;
     }
+
+    
 }
