@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import "./Newpage.css";
+import Foot from "./Foot";
 
 function Newpage() {
 
@@ -8,6 +9,7 @@ function Newpage() {
   return (
     <div className="nav">
     
+    {/* Header page */}
 
       <div className="container-1">
         <span></span>
@@ -50,6 +52,9 @@ function Newpage() {
           </section>
         </section>
 
+{/* Vertical line */}
+      <section className="vertical-line"></section>
+
         <section className="bar-2">
           <span className="p-1">
             <li>Step 1</li>
@@ -75,6 +80,8 @@ function Newpage() {
           </section>
         </section>
       </div>
+
+
     </div>
   );
 }
