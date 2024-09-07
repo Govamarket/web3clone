@@ -47,6 +47,7 @@ header{
     position: fixed;
     z-index: 100;
     width: 100%;
+    backdrop-filter: blur(50px);
 }
 .logo .icon{
     font-size: 2rem;
@@ -133,6 +134,9 @@ header .nav-btn{
         overflow-x: hidden;
     }
 
+    header nav::before             ::backdrop{
+        backdrop-filter: blur(30px);
+    }
     nav span{
         display: block;
      }
