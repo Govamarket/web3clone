@@ -14,6 +14,7 @@ function Newpage() {
       <div className="container-1">
         <span></span>
         <span></span>
+        <div className="mother">
         <section className="bar-1">
           <section className="row">
             <section className="col-1">
@@ -51,6 +52,8 @@ function Newpage() {
             </button>
           </section>
         </section>
+        </div>
+       
 
 {/* Vertical line */}
       <section className="vertical-line"></section>

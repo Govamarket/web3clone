@@ -36,7 +36,8 @@
 }
 /* Bar-1 styling */
 .bar-1{
-    border: 3px solid #000;
+    margin-left: auto 0px;
+    border: 2px solid #000;
     box-shadow: 10px 10px 10px 6px  #c4c2c2;
     width: 450px;
     height: 500px;
@@ -119,14 +120,20 @@
 
     .bar-1{
         border: 2px solid #000;
-        box-shadow: 1px 1px 23px 4px #dfdbdb;
+        box-shadow: 10px 10px 10px 6px  #c4c2c2;
         width: 20rem;
         height: 26rem;
-        background-color: #fff !important;
+        background-color: #fff;
         opacity: 1;
-        z-index: 300;
+        z-index: 1;
         padding: 2rem;
         border-radius: 1rem;
+        padding-top: 0px;
+    }
+
+    .mother{
+        display: flex;
+        justify-content: center;
     }
 
     .bar-2{
