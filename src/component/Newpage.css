@@ -40,13 +40,19 @@
     border: 2px solid #000;
     box-shadow: 10px 10px 10px 6px  #c4c2c2;
     width: 450px;
-    height: 500px;
+    height: 460px;
     background: #fff !important;
     opacity: 1;
     z-index: 1;
     padding: 5rem;
     border-radius: 1rem;
-    margin-top: 2.3rem;
+    margin-top: 2rem;
+}
+
+.middle{
+    display: inline-table;
+    align-items: center;
+    line-height: 2rem;
 }
 
 .col-1 h1{
@@ -129,6 +135,7 @@
         padding: 2rem;
         border-radius: 1rem;
         padding-top: 0px;
+        margin-top: 0px;
     }
 
     .mother{

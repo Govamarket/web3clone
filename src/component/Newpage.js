@@ -4,64 +4,51 @@ import "./Newpage.css";
 import Foot from "./Foot";
 
 function Newpage() {
-
-  
   return (
     <div className="nav">
-    
-    {/* Header page */}
+      {/* Header page */}
 
       <div className="container-1">
         <span></span>
         <span></span>
         <div className="mother">
-        <section className="bar-1">
-          <section className="row">
-            <section className="col-1">
-              <h1>
-                YOU'RE NOT <br /> ELIGIBLE YET
-              </h1>{" "}
-              <br />
-              <p>Here's how to become eligible:</p>
+          <section className="bar-1">
+            <section className="row">
+              <section className="col-1">
+                <h1>
+                  YOU'RE NOT <br /> ELIGIBLE YET
+                </h1>{" "}
+                <br />
+                <li>Here's how to become eligible:</li>
+              </section>
             </section>
-          </section>
 
-          <section className="middle">
-            <section className="line-1">
-              <spa>
-                <p>Get Talisman Wallet</p>
-              </spa>
-              <span>
-                <p>Installed?</p>
-                <a href="#">Refresh</a>
-              </span>
-            </section>
-            <section className="line-1">
-              <p>
-                Connect an Ethereum Account with <br /> Talisman
-              </p>
-            </section>
-            <section className="line-1">
-              <p>Sign-in to start earning rewards</p>
-            </section>
-          </section>
+            <section className="middle">
+              <li>Get Talisman Wallet  Installed?
+              <a href="#">Refresh</a></li>
 
-          <section className="btn">
-            <button>
-              <a href="#">Download Talisman</a>
-            </button>
+              <li>
+                {" "}
+                Connect an Ethereum Account with Talisman
+              </li>
+
+              <li> Sign-in to start earning rewards</li>
+            </section>
+
+            <section className="btn">
+              <button>
+                <a href="#">Download Talisman</a>
+              </button>
+            </section>
           </section>
-        </section>
         </div>
-       
 
-{/* Vertical line */}
-      <section className="vertical-line"></section>
+        {/* Vertical line */}
+        <section className="vertical-line"></section>
 
         <section className="bar-2">
           <span className="p-1">
             <li>Step 1</li>
-          
           </span>
           <section className="left-main">
             <span>
@@ -78,13 +65,11 @@ function Newpage() {
             </span>
 
             <span className="main">
-                <img src="./talisman-mockup.webp"></img>
+              <img src="./talisman-mockup.webp"></img>
             </span>
           </section>
         </section>
       </div>
-
-
     </div>
   );
 }
