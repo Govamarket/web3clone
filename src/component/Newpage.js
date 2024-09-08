@@ -29,7 +29,7 @@ function Newpage() {
 
               <li>
                 {" "}
-                Connect an Ethereum Account with Talisman
+                Connect an Ethereum Account with<span>Talisman</span>
               </li>
 
               <li> Sign-in to start earning rewards</li>

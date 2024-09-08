@@ -53,7 +53,10 @@
     display: inline-table;
     align-items: center;
     line-height: 2rem;
-    border-left: 2px solid #000;
+}
+
+.middle li span {
+    margin-left: 1.4rem;
 }
 
 .col-1 h1{
@@ -114,6 +117,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
+
 @media only screen and (max-width: 1028px) {
     .container-1{
         display: flex;
@@ -123,6 +128,12 @@
         position: relative;
         padding-top: 2rem;
         padding: 0 20px;
+    }
+
+    .middle{
+        display: inline-table;
+        align-items: center;
+        line-height: 2rem;
     }
 
     .bar-1{
