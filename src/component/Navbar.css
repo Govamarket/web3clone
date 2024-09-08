@@ -48,6 +48,7 @@ header{
     z-index: 10;
     width: 100%;
     position: fixed;
+    background: var(--secondaryColor) !important;
 }
 
 

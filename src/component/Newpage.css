@@ -24,7 +24,7 @@
     justify-content: space-around;
     gap: 2rem;
     position: relative;
-    padding: 0 80px;
+    padding: 0 20px;
     border-width: 2px solid #000;
     border-top: 1px solid #000;
 }
