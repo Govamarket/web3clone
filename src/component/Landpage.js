@@ -3,7 +3,7 @@ import { useRef } from "react";
 import "./Landpage.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Newpage from "./Newpage";
-// import Foot from "./Foot";
+import Foot from "./Foot";
 
 function Landpage() {
 
@@ -69,11 +69,12 @@ butRef.current.style.display = 'none';
           </section>
         </div>
       </section>
-
     </div>
+    <Foot />
       <div  className="lower-section" ref={sectionRef} >  
     
       <Newpage />
+      
 
       </div>
     </div>

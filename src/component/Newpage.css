@@ -86,10 +86,16 @@
 .main{
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 1rem;
     width: 100%;
+    background: #FE9ED2;
+    min-height: 300px;
+    
 }
 
+.main img{
+    width: 60%;
+}
 
 
 /* Bar-2 styling */
@@ -117,7 +123,9 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
+.text p{
+    line-break: 10rem;
+}
 
 @media only screen and (max-width: 1028px) {
     .container-1{

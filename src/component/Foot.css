@@ -81,8 +81,8 @@
         gap: 2rem;
         margin-top: 1rem;
         background-color: transparent;
-        margin-left: 80px;
-        margin-left: 10px;
+        /* margin-left: 80px; */
+        /* margin-left: 10px; */
         padding: 5px;
         border-radius: 10px;
     }

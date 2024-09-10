@@ -3,7 +3,6 @@ import { useRef } from "react";
 import { FaHandPaper } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-import Foot from "./Foot";
 
   function Navbar() {
     const navRef = useRef(null);
@@ -48,9 +47,7 @@ import Foot from "./Foot";
       </button>
       <button className="nav-b">Check Eligibility</button> 
     </header>
-
     </Fragment>
-    
   );
 }
 
