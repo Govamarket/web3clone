@@ -88,8 +88,14 @@
     justify-content: center;
     padding: 1rem;
     width: 100%;
-    background: #FE9ED2;
     min-height: 300px;
+    background: linear-gradient(
+        90deg, /* Direction of gradient (horizontal) */
+        #F9B4DD 0%,  /* First color at 0% */
+        #C7CEE1 50%, /* Second color at 50% */
+        #F8EFE0 100% /* Third color at 100% */
+    );
+    margin-top: 2rem;
     
 }
 
