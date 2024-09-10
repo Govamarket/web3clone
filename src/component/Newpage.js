@@ -70,8 +70,11 @@ function Newpage() {
           </section>
         </section>
       </div>
+      <Foot />
     </div>
+  
   );
+  
 }
 
 export default Newpage;

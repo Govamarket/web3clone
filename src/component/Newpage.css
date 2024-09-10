@@ -5,6 +5,7 @@
    margin: 0;
    box-sizing: border-box; 
    font-family: "Titillium Web", sans-serif;
+   z-index: 1;
   }
 
 
@@ -96,6 +97,7 @@
         #F8EFE0 100% /* Third color at 100% */
     );
     margin-top: 2rem;
+    border-radius: 1rem;
     
 }
 
@@ -143,6 +145,8 @@
         padding-top: 2rem;
         padding: 0 20px;
     }
+
+   
 
     .middle{
         display: inline-table;
