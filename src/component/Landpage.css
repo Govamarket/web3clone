@@ -139,6 +139,20 @@
         padding-top: 6rem;
         border-bottom: 0px;
     }
+
+    .text-article h1{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 32px;
+    }
+  
+    .text-articl .text p{
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 13px;
+    }
   
 
     .img img{
@@ -148,8 +162,9 @@
         width: 2000px;
         padding: 3px;
         margin-top: 2rem;
-
     }
+
+    
 
     .side-img{
         width: 100%;
