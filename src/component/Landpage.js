@@ -45,7 +45,7 @@ butRef.current.style.display = 'none';
       </section>
 
       <section className="side-img">
-        <img src="./eth.jpg"></img>
+        <img src="./landing-art.svg"></img>
         <div className="bubble-container">
           <section className="first-col">
             <span className="img-1">
