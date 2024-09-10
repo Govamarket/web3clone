@@ -207,8 +207,8 @@
 
     .bubble-container .first-col .img-2{
         width: 100px;
-        position: fixed;
-        transform: translateX(80%);
+        position: absolute;
+        transform: translateX(100%);
         top: 30vh;
         z-index: -1;
     }
@@ -216,7 +216,8 @@
     .first-col .img-1 {
         width: 100px;
         position: relative;
-        transform: translateX(80%);
+        left: 20vh;
+        transform: translateX(100%);
     }
 
     .second-col .img-3 {
@@ -230,8 +231,8 @@
     .second-col .img-4 {
         width: 100px;
         position: relative;
-        left: 80%;
-        transform: translateY(-90%);
+        left: 74%;
+        transform: translateY(-95%);
         transition: all 1s round ease-in linear;
     }
 
@@ -260,6 +261,30 @@
         left: 4.5vh;
         width: 10px;
         position: absolute;
+    }
+
+
+    .first-col .img-1 {
+        width: 100px;
+        position: relative;
+        left: 20vh;
+        transform: translateX(100%);
+    }
+
+    .second-col .img-3 {
+        width: 100px;
+        position: relative;
+        left: 80%;
+        transform: translateY(10%);
+    }
+
+
+    .second-col .img-4 {
+        width: 100px;
+        position: relative;
+        left: 74%;
+        transform: translateY(-95%);
+        transition: all 1s round ease-in linear;
     }
 
     
