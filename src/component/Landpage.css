@@ -142,7 +142,7 @@
 
     .text-article h1{
         font-family: "Titillium Web", sans-serif;
-        font-weight: 800;
+        font-weight: 800 !important;
         font-style: normal;
         font-size: 32px;
     }
@@ -207,20 +207,21 @@
 
     .bubble-container .first-col .img-2{
         width: 100px;
-        position: absolute;
+        position: fixed;
         transform: translateX(80%);
         top: 30vh;
+        z-index: -1;
     }
 
     .first-col .img-1 {
         width: 100px;
-        position: absolute;
+        position: relative;
         transform: translateX(80%);
     }
 
     .second-col .img-3 {
         width: 100px;
-        position: absolute;
+        position: relative;
         left: 80%;
         transform: translateY(10%);
     }
@@ -228,7 +229,7 @@
 
     .second-col .img-4 {
         width: 100px;
-        position: absolute;
+        position: relative;
         left: 80%;
         transform: translateY(-90%);
         transition: all 1s round ease-in linear;
