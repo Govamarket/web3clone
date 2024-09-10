@@ -261,20 +261,22 @@
         left: 4.5vh;
         width: 10px;
         position: absolute;
+        right: 50%;
+        transform: translateX(130%);
     }
 
 
     .first-col .img-1 {
         width: 100px;
         position: relative;
-        left: 20vh;
-        transform: translateX(100%);
+        right: 50%;
+        transform: translateX(130%);
     }
 
     .second-col .img-3 {
         width: 100px;
         position: relative;
-        left: 80%;
+        right: 80%;
         transform: translateY(10%);
     }
 
@@ -283,7 +285,7 @@
         width: 100px;
         position: relative;
         left: 74%;
-        transform: translateY(-95%);
+        transform: translateY(-110%);
         transition: all 1s round ease-in linear;
     }
 
