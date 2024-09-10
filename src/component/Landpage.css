@@ -141,11 +141,12 @@
     }
   
 
-    .side-img img{
+    .img img{
         display: flex;
         justify-content: center;
         margin: auto 40px;
-        width: 1000px;
+        width: 2000px;
+        padding: 3px;
         margin-top: 2rem;
 
     }
@@ -192,33 +193,40 @@
     .bubble-container .first-col .img-2{
         width: 100px;
         position: absolute;
-        transform: translateX(100%);
-        top: 8vh;
+        transform: translateX(80%);
+        top: 30vh;
     }
 
     .first-col .img-1 {
         width: 100px;
         position: absolute;
-        transform: translateX(100%);
+        transform: translateX(80%);
     }
 
     .second-col .img-3 {
         width: 100px;
         position: absolute;
-        left: 40%;
-        z-index: 1;
+        left: 80%;
         transform: translateY(10%);
     }
 
 
     .second-col .img-4 {
-        width: 50px;
-        opacity: 1;
-        border: blur (5px);
-        z-index: 1;
+        width: 100px;
         position: absolute;
-        left: 50%;
-        transform: translateY(100%);
+        left: 80%;
+        transform: translateY(-90%);
+        transition: all 1s round ease-in linear;
+    }
+
+    @keyframes round{
+        0% {
+            transform: translateY(0%);
+        }
+
+        30%{
+            transform: translateX(30%);
+        }
     }
 
     
